@@ -1,0 +1,41 @@
+body {
+    background: #FAEBC8;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+main section {
+    width: 1000px;
+    margin: 200px auto;
+    padding: 100px;
+    box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.66);
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main section article {
+    inset-block-start: auto;
+    display: inline-grid;
+    height: 100%;
+    align-items: baseline;
+    width: 29%;
+    padding: 20px;
+    margin: 0.2px;
+    text-align: start;
+    align-content: center;
+}
+
+main section article p+p {
+    font-family: 'Open Sans',
+    sans-serif;
+    color: #8F4F45;
+    font-weight: bold;
+    text-shadow: 22px 23px 1px rgba(148, 150, 150, 1);
+}
+
+img {
+    width: 80px;
+    display: inline-block;
+
+}

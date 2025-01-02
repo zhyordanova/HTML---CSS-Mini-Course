@@ -1,0 +1,48 @@
+bosy {
+    font-family: "Open Sans",
+    sans-serif;
+    color: #656565;
+}
+
+header section article {
+    display: inline-block;
+    padding:12px;
+    margin-top:100px;
+    margin-left: 90px;
+    border-left: 3px solid #656565;
+}
+
+header section article:nth-child(1) {
+    float: left;
+    width: 638px;
+}
+
+header section article:nth-child(2) {
+    float: right;
+    width: 450px;
+}
+
+main section article {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 8px;
+    width: 25%;
+}
+
+main section article:nth-child(1) {
+    float: left;
+}
+
+main section article:nth-child(2) {
+    float: middle;
+}
+
+main section article img {
+    float: right;
+    width: 420px;
+    height: 100%;
+    margin-right: inherit;
+}
